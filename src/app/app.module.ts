@@ -1,7 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AlertModule} from 'ngx-bootstrap';
-
+import { AngularFontAwesomeModule} from "angular-font-awesome";
+ 
 import { AppComponent } from './app.component';
 import { WeatherLandingComponent } from './weather-landing/weather-landing.component';
 import { WeatherHeaderComponent } from './weather-landing/weather-header/weather-header.component';
@@ -16,7 +17,8 @@ import { WeatherDetailsComponent } from './weather-landing/weather-details/weath
   ],
   imports: [
     BrowserModule,
-    AlertModule.forRoot()
+    AlertModule.forRoot(),
+    AngularFontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
