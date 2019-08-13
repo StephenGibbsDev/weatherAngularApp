@@ -1,20 +1,20 @@
 <!-- <p>weather-header works!</p> -->
-<div class="weather-head">
+    <div class="weather-head">
         <h1 id="miami" class="text-center display-4">
             Plymouth, UK
-        </h1>
+           
+        </h1> 
         <div class="row">
             <div id="description" class="col-lg-6 text-center"> 
                 <div class="currentWeather">
                     <i id="icon-desc" class="fas fa-cloud fa-4x">
                     </i>
-                    <p id="desc" class="weather-text">Cloudy</p>
+                    <p id="desc" class="weather-text">{{weatherData?.weather[0].description}}</p>
                 </div>
             </div>
 
             <div id="temperature" class="col-lg-6 text-center">
-                    
-                75
+                    {{weatherData?.main.temp}}
                 <i class="fas fa-thermometer-half"></i>
             </div>
         </div>
