@@ -3,7 +3,8 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
 
 ## TODO:
--Learn promises and intergrate coordinate promise that retrieves the users location to base weather upon
+- Learn promises and intergrate coordinate promise that retrieves the users location to base weather upon
+- create dynamic background to change according to weather
 
 
 ## Development server
