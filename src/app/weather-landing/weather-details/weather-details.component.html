@@ -6,8 +6,8 @@
             <div class="col-lg-4 text-center"><i class="fas fa-location-arrow"></i> Wind Degree</div>
         </div>
         <div class="row" id="weatherDetails" >
-            <div class="col-lg-4 text-center">75%</div>
-            <div class="col-lg-4 text-center">88mph</div>
-            <div class="col-lg-4 text-center">207°</div>
+            <div class="col-lg-4 text-center">{{weatherData?.main.humidity}}%</div>
+            <div class="col-lg-4 text-center">{{weatherData?.wind.speed}} mph</div>
+            <div class="col-lg-4 text-center">{{weatherData?.wind.deg}}°</div>
         </div>
     </div>

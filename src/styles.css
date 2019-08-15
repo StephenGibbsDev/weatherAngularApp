@@ -40,10 +40,7 @@ color:white;
 font-size: 1.5rem;
 }
 .currentWeather{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+
 }
 #weatherDetails{
     border-top: 1px solid white;

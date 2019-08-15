@@ -9,7 +9,7 @@ import { HttpClient } from '@angular/common/http';
 
 export class WeatherDetailsService {
     weatherData:WeatherDetails
-    readonly rootUrl='https://api.openweathermap.org/data/2.5/weather?q=London&APPID=24d03c65a6ba3dee0c7b8358a1ae0469&units=metric'
+    readonly rootUrl='https://api.openweathermap.org/data/2.5/weather?q=Plymouth&APPID=24d03c65a6ba3dee0c7b8358a1ae0469&units=metric'
     //list:Weather[];
     
 
